@@ -167,3 +167,84 @@ dl div{
 
 dl dt{}
 dl dd
+
+/* Project */
+.three-col {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; /* 3 equal columns */
+    padding: 60px;
+}
+
+.card {
+
+    background-color:#921a40 ;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow:  0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.06);
+    display: flex;
+    flex-direction: column;
+    padding: 1.5em; 
+    height: 500px;
+    align-items: center;
+}
+
+.card img {
+    
+}
+
+.card ul{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    color: #f4d9d0;
+}
+
+.card h3 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+    color: #f4d9d0;
+}
+
+/* Contact Page Styles */
+.one-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+form {
+    display: grid;
+    width: 100%;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    padding: 0.5em;
+}
+
+form input:focus, form textarea:focus {
+    outline: none;
+    border-color: #007BFF;
+    
+}
+
+form button {
+    background-color: #921a40;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #f4d9d0;
+}
